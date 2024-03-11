@@ -1,0 +1,7 @@
+package com.icici;
+
+public interface Bank {
+  public void deposite(int x);
+  public void withdraw(int y);
+  public int getBalance();
+}

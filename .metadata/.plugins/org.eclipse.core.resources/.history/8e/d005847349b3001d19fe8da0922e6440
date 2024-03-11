@@ -1,0 +1,42 @@
+package com;
+
+interface Beverage
+{
+	
+}
+
+class Coffee
+{
+	
+}
+
+class Tea
+{
+	
+}
+
+class company
+{
+	Beverage vendingMachine(int choice)
+	{
+		if(choice==1)
+    	{
+    		Coffee c=new Coffee();
+    		return c;       //return new Coffee();
+    	}
+    	
+    	if(choice==2)
+    	{
+    		Tea p=new Tea();
+    		return v;      //return new Poori();
+    	}
+    	
+	}
+}
+public class Mainclass {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.icici;
+
+import java.util.Scanner;
+
+public class Solution {
+  //scannner
+	//upcasting 
+	//while(true)
+	//display the menu-> menu drive program 1:deposit Amount 2:withdraw Amount 3:getbalance 4:Exit
+	//swith()-> case 1: 2 3  4 5
+	
+	Scanner scan=new Scanner(System.in);
+	int ip=scan.nextInt();
+	
+}

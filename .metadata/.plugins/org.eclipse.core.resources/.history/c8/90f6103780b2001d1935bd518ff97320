@@ -1,0 +1,20 @@
+package lambdaexperssions;
+
+@FunctionalInterface
+interface Person
+{
+	String display(int age);
+}
+
+class Tom{
+	
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+  
+	}
+
+}

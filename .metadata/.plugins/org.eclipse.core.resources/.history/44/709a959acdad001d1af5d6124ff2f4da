@@ -1,0 +1,12 @@
+package com;
+
+public class Employee {
+ String id;
+ String name;
+ 
+ int count=101;
+ Employee( String name)
+ {
+	 this.id="JSP"+count;
+ }
+}

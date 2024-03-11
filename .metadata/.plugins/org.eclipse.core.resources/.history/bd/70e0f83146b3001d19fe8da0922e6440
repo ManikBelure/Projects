@@ -1,0 +1,48 @@
+package com;
+
+interface Food
+{
+	
+}
+
+class Idly implements Food
+{
+
+}
+
+class Poori implements Food
+{
+
+}
+
+class Dosa implements Food
+{
+
+}
+
+class Hotel {
+    Food orderFood(int choice)
+    {
+    	if(choice==1)
+    	{
+    		Idly i=new Idly();
+    		return i;//return new Idly();
+    	}
+    	
+    	if(choice==1)
+    	{
+    		Poori p=new Poori();
+    		return p;//return new Poori();
+    	}
+    	
+    }
+}
+
+
+public class Solution {
+
+	public static void main(String[] args) {
+
+	}
+
+}

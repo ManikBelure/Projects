@@ -1,0 +1,63 @@
+package sdbms;
+
+import java.util.Scanner;
+
+public class StudentManagementSystemImp1 implements StudentManagementSystem {
+
+	//scaner
+	//Map db=new LHM
+	//<String, Student>
+	
+	Scanner scan=new Scanner(System.in); 
+	
+	
+	
+	@Override
+	public void addstudent() {
+
+	}
+
+	@Override
+	public void displaystudent() {
+
+	}
+
+	@Override
+	public void displayAllstudents() {
+
+	}
+
+	@Override
+	public void removestudents() {
+
+	}
+
+	@Override
+	public void removeAllstudents() {
+
+	}
+
+	@Override
+	public void updatestudent() {
+
+	}
+
+	@Override
+	public void countstudent() {
+
+	}
+
+	@Override
+	public void sortstudents() {
+
+	}
+
+	@Override
+	public void getstudentWithLowestMarks() {
+
+	}
+
+	@Override
+	public void getstudentWithHighestMarks() {
+	}
+}

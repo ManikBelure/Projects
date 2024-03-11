@@ -1,0 +1,75 @@
+package sdbms;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class StudentManagementSystemImp1 implements StudentManagementSystem {
+
+	//scaner
+	//Map db=new LHM
+	//<String, Student>
+	
+	Scanner scan=new Scanner(System.in); 
+	Map<String,Student> db=new LinkedHashMap<String,Student>();
+	
+	
+	@Override
+	public void addstudent() {
+		//Accept age,name&marks
+		//create a student objects into db-> put() ->id,std
+		//add the student object into db->put() ->id,std
+		//print the std id
+		System.out.println("Enter the student Age");
+		int age=scan.nextInt();
+		System.out.println("Enter the student Name");
+		String name=scan.next();
+		System.out.println("Enter the student Name");
+		int marks=scan.nextInt();
+	
+	}
+
+	@Override
+	public void displaystudent() {
+
+	}
+
+	@Override
+	public void displayAllstudents() {
+
+	}
+
+	@Override
+	public void removestudents() {
+
+	}
+
+	@Override
+	public void removeAllstudents() {
+
+	}
+
+	@Override
+	public void updatestudent() {
+
+	}
+
+	@Override
+	public void countstudent() {
+
+	}
+
+	@Override
+	public void sortstudents() {
+
+	}
+
+	@Override
+	public void getstudentWithLowestMarks() {
+
+	}
+
+	@Override
+	public void getstudentWithHighestMarks() {
+	}
+}

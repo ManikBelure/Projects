@@ -1,0 +1,117 @@
+package sdbms;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+public class StudentManagementSystemImp1 implements StudentManagementSystem {
+
+	//scaner
+	//Map db=new LHM
+	//<String, Student>
+
+	Scanner scan=new Scanner(System.in); 
+	Map<String,Student> db=new LinkedHashMap<String,Student>();
+
+
+	@Override
+	public void addstudent() {
+		//Accept age,name&marks
+		//create a student objects into db-> put() ->id,std
+		//add the student object into db->put() ->id,std
+		//print the std id
+
+		System.out.println("Enter the student Age");
+		int age=scan.nextInt();
+		System.out.println("Enter the student Name");
+		String name=scan.next();
+		System.out.println("Enter the student Marks");
+		int marks=scan.nextInt();
+
+		Student std=new Student(age, name, marks);
+		db.put(std.getId(),std);
+		System.out.println("Student Record Inserted Successfully");
+		System.out.println("Student Id is "+std.getId());
+	}
+
+	@Override
+	public void displaystudent() {
+		//Accept the id
+		//toUpperCase()
+		//check if id is there or not ->containskey()
+		//if Id(key) is there ->get the value(student object)->getAge() getName() getMarks()
+		//else
+		//customexception->studentNotFoundException//invoke throw 
+		
+		System.out.println("Enter the student id");
+		String id=scan.next(); //String id=scan.next().toUpperCase();
+		id=id.toUpperCase();
+		
+		if(db.containsKey(id))
+		{
+			Student std=db.get(id);
+			System.out.println("Id: "+std.getId());
+			System.out.println("Age: "+std.getAge());
+			System.out.println("Name: "+std.getName());
+			System.out.println("Marks: "+std.getMarks());
+		}
+
+	}
+
+	@Override
+	public void displayAllstudents() {
+		//Map into Set ->keySet()
+		//for each loop to traverse keys 
+		//db.get(key) ->getting value (student object)->print reference
+
+		if(db.size()!=0)
+		{
+			Set<String> keys=db.keySet();
+			for(String key:keys)
+			{
+				Student value=db.get(key);
+				System.out.println(value);// System.out.println(db.get(keys));
+			}
+		}
+		else
+		{
+			//keep it empty
+		}
+	}
+
+	@Override
+	public void removestudents() {
+
+	}
+
+	@Override
+	public void removeAllstudents() {
+
+	}
+
+	@Override
+	public void updatestudent() {
+
+	}
+
+	@Override
+	public void countstudent() {
+
+		System.out.println("No of student Records :"+db.size());
+	}
+
+	@Override
+	public void sortstudents() {
+
+	}
+
+	@Override
+	public void getstudentWithLowestMarks() {
+
+	}
+
+	@Override
+	public void getstudentWithHighestMarks() {
+	}
+}

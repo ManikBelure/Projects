@@ -1,0 +1,31 @@
+package com;
+
+
+interface Person{
+	void work();
+}
+
+class Doctor implements Person
+{
+     int id=101;
+	@Override
+	public void work() {
+    System.out.println("Doctor is working");		
+	}
+}
+
+class Engineer implements Person
+{
+	String 
+}
+
+
+
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+	}
+
+}

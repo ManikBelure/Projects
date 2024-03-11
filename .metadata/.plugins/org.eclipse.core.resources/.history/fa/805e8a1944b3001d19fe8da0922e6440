@@ -1,0 +1,31 @@
+package com;
+
+class Idly
+{
+
+}
+
+class Poori
+{
+
+}
+
+class Dosa
+{
+
+}
+
+public class Hotel {
+	
+	String  orderFood(int choioce)
+	{
+		return ;
+		
+	}
+	public static void main(String[] args) {
+      Idly i=new Idly();
+      
+		
+		
+	}
+}

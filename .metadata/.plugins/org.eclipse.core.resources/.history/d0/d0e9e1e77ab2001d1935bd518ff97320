@@ -1,0 +1,44 @@
+package Innerclass;
+
+
+abstract  class Person
+   {
+	 abstract  void walk();
+   }
+
+class Tom extends Person
+{
+	@Override
+	void walk()
+	{
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class Solution {
+
+	public static void main(String[] args) {
+
+	}
+
+}

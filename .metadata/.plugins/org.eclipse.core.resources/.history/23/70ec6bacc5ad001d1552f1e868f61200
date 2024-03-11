@@ -1,0 +1,15 @@
+package sdbms;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		//scanner 
+		//upcasting 
+		//while(true)
+		//MENU DRIVEN PROGRAM->Display->1:add student 2:displaystudent 3:displayAllstudents 4:removestudents 5:removeAllstudents 6:
+		  // updatestudent 7:countstudent 8:sortstudents 9:getstudentWithLowestMarks 10:getstudentWithHighestMarks 11:Exit
+		//swith-> case 1:.....
+
+	}
+
+}

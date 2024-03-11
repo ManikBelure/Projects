@@ -1,0 +1,8 @@
+package sdbms;
+
+public class Student {
+ //4 private Data members->id,age,name,marks
+	//constructor
+	//3 setter and 4 getter methods
+	//toString()->id=100, age=22, name=Manik, Marks=80
+}

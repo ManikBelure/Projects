@@ -1,0 +1,30 @@
+package sdbms;
+
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		//scanner 
+		//upcasting 
+		//while(true)
+		//MENU DRIVEN PROGRAM->Display->1:add student 2:displaystudent 3:displayAllstudents 4:removestudents 5:removeAllstudents 6:
+		  // updatestudent 7:countstudent 8:sortstudents 9:getstudentWithLowestMarks 10:getstudentWithHighestMarks 11:Exit
+		//swith-> case 1:.....
+    
+		
+		System.out.println("Welcom to student DB Management system");
+		System.out.println("================================================");
+		Scanner scan=new Scanner(System.in);
+		StudentManagementSystem sms=new StudentManagementSystemImp1();
+		
+		while(true)
+		{
+			System.out.println("1:add student\n2:displaystudent \n3:displayAllstudents\n 4:removestudents\n 5:removeAllstudents");
+				System.out.println("6:updatestudent \n7:countstudent\n8 :sortstudents \n9:getstudentWithLowestMarks \n10:getstudentWithHighestMarks \n11:Exit");
+		}
+		
+		
+	}
+
+}

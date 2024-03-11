@@ -1,0 +1,32 @@
+package edbms;
+
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		//scanner 
+		//upcasting 
+		//while(true)
+		//MENU DRIVEN PROGRAM->Display->1:add Employee 2:displayEmployee 3:displayAllEmployee 4:removeEmployee 5:removeAllEmployee 6:
+		// updateEmployee 7:countEmployee 8:sortEmployee9:getEmployeeWithLowestMarks 10:getEmployeeWithHighestMarks 11:Exit
+		//swith-> case 1:.....
+
+		System.out.println("Welcom to Employee DB Management system");
+		System.out.println("================================================");
+
+		Scanner scan=new Scanner(System.in);
+		EmployeeManagementSystem emp=new EmployeeManagementSystemImp1();
+		
+		while(true)
+		{
+			System.out.println("1:add student\n2:Displaystudent");
+			System.out.println("3:displayAllstudents\n4:removestudents\n5:removeAllstudents");
+			System.out.println("6:updatestudent\n7:countstudent\n8:sortstudents");
+			System.out.println("9:getstudentWithLowestMarks");
+			System.out.println("10:getstudentWithHighestMarks");
+			System.out.println("11:Exit\nEnter the choice");
+			int choice=scan.nextInt();
+	}
+	}
+}

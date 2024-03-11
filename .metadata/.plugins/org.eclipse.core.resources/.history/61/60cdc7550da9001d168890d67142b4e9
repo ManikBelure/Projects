@@ -1,0 +1,11 @@
+package COM.TY;
+
+public interface Calculator {
+	public abstract int add(int x,int y);
+	public abstract int sub(int x,int y);
+	public abstract int mul(int x,int y);
+	public abstract int div(int x,int y);
+	
+	
+
+}

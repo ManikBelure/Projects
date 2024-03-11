@@ -1,0 +1,31 @@
+package COM.TY;
+
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		
+		//scanner
+		Scanner scan=new Scanner(System.in);
+		
+		//calculator calculatorimp1->abstraion->upcasting
+		Calculator calc=new CalculatorImpl();
+		
+		System.out.println("1:Addition\n2:Subtraction\n3:multiplication");
+		
+		System.out.println("4:division\n5:Exit\nEnter choice:");
+		int choice=scan.nextInt();
+		
+		int a=0;
+		int b=0;
+		switch (choice) {
+		case 1:
+			System.out.println("");
+			int a=scan.nextInt();
+		}
+		
+
+	}
+
+}

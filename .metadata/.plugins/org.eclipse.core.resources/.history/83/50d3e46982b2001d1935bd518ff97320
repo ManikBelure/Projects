@@ -1,0 +1,9 @@
+Anonymous Inner Class:
+-----------------------------
+1.A class without any name.
+2.Anonymous Inner class is generally used with abstract class & interface.
+
+syntax:
+ClassName referenceName=new ClassName()
+{
+};

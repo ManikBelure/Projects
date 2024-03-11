@@ -1,0 +1,18 @@
+package lambdaexperssions;
+
+
+@FunctionalInterface
+interface Student
+{
+	String study();
+}
+public class Runner {
+
+	public static void main(String[] args) {
+      Student sc=()->{
+    	  System.out.println("study working");
+      };
+      sc.study();
+	}
+
+}

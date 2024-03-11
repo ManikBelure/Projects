@@ -1,0 +1,21 @@
+package edbms;
+
+public class Employee {
+ private String id;
+ private int age;
+ private String name;
+ private double salary;
+ 
+ private static int count=101;
+
+public Employee(String id, int age, String name, double salary) {
+	
+	this.id = id;
+	this.age = age;
+	this.name = name;
+	this.salary = salary;
+	count++;
+}
+ 
+ 
+}

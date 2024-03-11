@@ -1,0 +1,8 @@
+package COM.TY;
+
+public interface Calculator {
+	public abstract void  add(int x,int y);
+	
+	
+
+}

@@ -1,0 +1,6 @@
+package Customexception;
+
+public class INvalidChoiceException extends RuntimeException{
+
+	private String message;
+}
