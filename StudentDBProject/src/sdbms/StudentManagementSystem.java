@@ -11,5 +11,5 @@ public interface StudentManagementSystem {
 	void countstudent();
 	void sortstudents();
 	void getstudentWithLowestMarks();
-	void getstudentWithHighestMarks();
+	void getstudentWithHighestMarks(); 
 }

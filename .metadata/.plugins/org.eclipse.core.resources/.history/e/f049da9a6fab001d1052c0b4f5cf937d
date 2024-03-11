@@ -1,5 +1,0 @@
-package com.icici;
-
-public class InsufficienentBalanceException extends RuntimeExcepyion {
-
-}

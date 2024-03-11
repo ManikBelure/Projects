@@ -1,9 +1,0 @@
-package com.icici;
-
-public interface Bank {
-	
-	
-   void deposite(int x);
-   void withdraw(int y);
-   int getBalance();
-}
